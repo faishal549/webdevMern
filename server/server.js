@@ -12,9 +12,8 @@ const port = process.env.PORT || 5000;
 
 
 const corsOptions = {
-    origin: ["http://localhost:5173", "https://webdev-mern-2xza.vercel.app/"],
-
-    method: "GET , POST ,PUT , DELETE , PATCH ,HEAD",
+    origin: ["http://localhost:5173", "https://webdev-mern-2xza.vercel.app"], // Removed trailing slash
+    method: ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD"], // Corrected format
     credentials: true,
 }
 
