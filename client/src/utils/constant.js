@@ -1,0 +1,1 @@
+export const LOGO = "https://cdn-icons-png.freepik.com/256/16633/16633371.png?semt=ais_hybrid"
